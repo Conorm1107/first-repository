@@ -39,4 +39,13 @@ def my_function(a, b=10, c=20):
 my_function(5)  # a is required, b and c will take default values
 # Output: 5 10 20
 
+first_value = 10
+second_value = 10
 
+my_dict = {'first key': first_value, 'second key': second_value}
+
+#creating a list
+my_list = list(range(0,10,2))
+print(my_list)
+
+#creating a list of even numbers using comprehension
