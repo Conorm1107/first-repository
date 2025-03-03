@@ -1,6 +1,6 @@
 print("Hello world")
 
-import Conors exercises.py
+import Conors_exercises.py
 
 
 

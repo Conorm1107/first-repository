@@ -146,7 +146,7 @@ print(result)
 #renaming
 import os
 
-os.rename('Conors exercises.py', 'Conors_exercises.py')
+#os.rename('Conors exercises.py', 'Conors_exercises.py')
 
 #linking scripts
 def f(x):
