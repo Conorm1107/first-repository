@@ -148,3 +148,6 @@ import os
 
 os.rename('Conors exercises.py', 'Conors_exercises.py')
 
+#linking scripts
+def f(x):
+    return x**2
