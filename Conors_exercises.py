@@ -144,10 +144,28 @@ print(result)
 
 
 #renaming
-import os
-
-os.rename('Conors exercises.py', 'Conors_exercises.py')
 
 #linking scripts
 def f(x):
     return x**2
+
+# attributes as annotations 
+class MyClass:
+    _private_value: str="Hello"
+    public_value: int = 0
+
+x=MyClass()
+print(x._private_value)
+
+x._private_value = "Goodbye"
+print(x._private_value)
+
+#Classes with methods
+class MyClass:
+    _private_value: str
+    public_value: str
+
+    def set_values(self):
+        self._private_value="I'm private"
+        self.public_value="I'm public"
+
