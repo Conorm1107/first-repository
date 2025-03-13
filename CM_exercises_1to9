@@ -1,1 +1,29 @@
 # Solutions to problems 1 to 9 of Python training  
+
+#   Problem 1 - write a function which, given a list of numbers, will return the mean and standard deviation in a 2-tuple
+def f(*args, **kwargs):
+    mean = sum(args)/len(args)
+    variance = sum((x-mean)**2 for x in args)/(len(args)-1)
+    standard_deviation = variance**0.5
+    return mean, standard_deviation
+    
+print(f(23,40,56,78))
+
+
+#   Problem 2 - write a function which, given a list of strings, will return a new list containing any palindromes from the original list
+def g(*args):
+    List_of_Palindromes = [y[::-1] for y in args]
+    return List_of_Palindromes
+
+print(g("Hello", "World", "Python"))
+
+
+#   Problem 3 - Write a function which converts a string to all uppercase
+def h(*args):
+    Uppercase_list = [z.upper() for z in args]
+    return Uppercase_list
+print (h("hi","bye"))
+
+
+#   Problem 4 - 
+
